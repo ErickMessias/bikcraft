@@ -17,6 +17,7 @@
 
 .introducao img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -27,18 +28,12 @@
   line-height: 1.125em; /*divido o line height pelo font size 72/64*/
 }
 
-.introducao h1 span {
-  color: #ffbb00;
-}
-
 .introducao p {
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5em;
   color: #b2b2b2;
 }
-
-
 
 @media (max-width: 1200px) {
   .introducao h1 {
