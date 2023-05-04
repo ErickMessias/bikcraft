@@ -38,6 +38,7 @@
   }
 }
 
+/*Botão Secundário*/
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
@@ -64,4 +65,27 @@
 
 .link:hover {
   color: var(--cor-0);
+}
+
+/*Titulos páginas internas*/
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+
+.titlo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400s;
+  }
 }
