@@ -30,3 +30,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+blockquote {
+  margin: 0px;
+}
