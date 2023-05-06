@@ -25,6 +25,8 @@
   font-weight: bold;
   transition: 0.3s;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
