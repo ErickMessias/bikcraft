@@ -96,6 +96,9 @@
   padding-bottom: 60px;
   background-color: var(--cor-11);
 }
+.titulo {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
 
 .titlo p {
   margin-bottom: 4px;
